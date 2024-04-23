@@ -1,0 +1,102 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px;
+}
+
+
+.box {
+    display: block;
+    width: 140px;
+    height: 30px;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 7px;
+  }
+
+ #box1{
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+} 
+
+#box2{
+    width: 200px;
+    max-height: 550px;
+    background-color: lightblue;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+hr{
+    background-color: white;
+}
+
+.add-rooms-and-guest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    background-color: lightblue;
+
+}
+
+.add-room-and-guest {
+    
+    display: flex;
+    align-items: center; 
+    margin: 20px 0;
+}
+
+.room-counting{
+
+}
+    
+.guest-counter{
+    display: flex;
+}
+
+
+.plus , .minus{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+#btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 1px;
+
+}
+
+button{
+    border: none;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}
+
+ */

@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 100px;
+}
+
+.box1{
+  border: 1px solid black;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.box2{
+  width: 200px;
+  max-height: 500px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.roomAndGuest{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.additionalRooms{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+
+.noOfGuestDiv{
+  display: flex;
+}
+  
+ 
+  
+  
